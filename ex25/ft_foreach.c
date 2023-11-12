@@ -6,14 +6,14 @@
 /*   By: dyarkovs <dyarkovs@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/12 11:58:20 by dyarkovs          #+#    #+#             */
-/*   Updated: 2023/11/12 14:36:06 by dyarkovs         ###   ########.fr       */
+/*   Updated: 2023/11/12 20:09:14 by dyarkovs         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include <unistd.h>
 
 
-void	ft_foreach(int *tab, int length, void	(*f)(int))
+void	ft_foreach(int *tab, int length, void (*f)(int))
 {
 	int	i;
 
